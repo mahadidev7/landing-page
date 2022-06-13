@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1199px){
+    
+    .margin_top{
+        margin-top: 50px;
+    }
+    .banner_right .app_title{
+        font-size: 50px;
+    }
+    h1,h2,h3,h4{
+        font-size: 50px;
+    }
+    .banner_left .banner_img_box{
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .margin_top{
+        margin-top: 10px;
+    }
+    .banner_left .banner_img_box {
+        height: 375px;
+    }.banner_right .app_title{
+        font-size: 30px;
+    }
+    h1,h2,h3,h4{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .nav_toggle{
+        display: block;
+    }
+    .menu{
+        justify-content: flex-end;
+    }
+    .menu_one{
+        display: none;
+    }
+    .navbar_toggler_menu_one{
+        display: flex !important;
+    }
+    .nav_toggle_group{
+        width: 97%;
+    }
+    .logo{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .fotter_group{
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .fotter_group .footer_item{
+        padding: 20px;
+    }
+    .fotter_group .footer_item:last-child{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+    .fotter_group .footer_item img{
+        transform: scale(1) !important;
+        -webkit-transform: scale(1) !important;
+        -moz-transform: scale(1) !important;
+        -ms-transform: scale(1) !important;
+        -o-transform: scale(1) !important;
+    }
+    .subscript_box div{
+        width: 100%;
+    }
+    #section_7 .container{
+        background-color: #FFE5E5;
+    }
+    #section_7 .container:after{
+        background-color: transparent !important;
+    }
+    #banner_change_group{
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        z-index: 3;
+        /* background-color: #fff; */
+    }
+    .banner_right{
+        width: 100%;
+    }
+    .banner_left h1{
+        width: 100%;
+        float: unset;
+        padding: 0;
+    }
+    .model_item{
+        width: 90%;
+    }
+    .model_gp > div:first-child{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 424px){
+    .fotter_group{
+        grid-template-columns: 1fr;
+        margin: 0 !important;
+    }
+    .review_img{
+        width: 100%;
+    }
+    .reviews_item img{
+        width: 100%;
+    }
+    .reviews_left_groups div img{
+        width: 100% !important;
+        padding: 20px;
+    }
+    .app_title{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
